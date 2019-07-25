@@ -26,7 +26,15 @@ public class Parcel {
     public Parcel(String name, String tele) {
         this.name = name;
         this.tele = tele;
-        this.getPaecelTime=null;
+        this.getPaecelTime=new Date();
+        this.status = 1;
+    }
+
+    public Parcel(long id,String name, String tele) {
+        this.parcelId=id;
+        this.name = name;
+        this.tele = tele;
+        this.getPaecelTime=new Date();
         this.status = 1;
     }
 
