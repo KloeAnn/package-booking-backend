@@ -1,12 +1,24 @@
 package com.oocl.packagebooking.model;
 
+import org.hibernate.annotations.Generated;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class Parcel {
+    @Id
+    @GeneratedValue
     private long parcelId;
+
     private String name;
+
     private String tele;
+
     private int status;
+
     private Date getPaecelTime;
 
     public Parcel(){}
@@ -14,6 +26,7 @@ public class Parcel {
     public Parcel(String name, String tele) {
         this.name = name;
         this.tele = tele;
+        this.getPaecelTime=null;
         this.status = 1;
     }
 

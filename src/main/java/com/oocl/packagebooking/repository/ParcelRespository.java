@@ -1,4 +1,8 @@
 package com.oocl.packagebooking.repository;
 
-public class ParcelRespository {
+import com.oocl.packagebooking.model.Parcel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ParcelRespository extends JpaRepository<Parcel,Long> {
+
 }
