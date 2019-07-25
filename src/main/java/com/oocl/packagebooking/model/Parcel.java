@@ -27,7 +27,7 @@ public class Parcel {
         this.name = name;
         this.tele = tele;
         this.getPaecelTime=new Date();
-        this.status = 1;
+        this.status = 0;
     }
 
     public Parcel(long id,String name, String tele) {
@@ -35,7 +35,7 @@ public class Parcel {
         this.name = name;
         this.tele = tele;
         this.getPaecelTime=new Date();
-        this.status = 1;
+        this.status = 0;
     }
 
     public long getParcelId() {
