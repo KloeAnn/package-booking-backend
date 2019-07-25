@@ -16,20 +16,6 @@ import java.util.List;
 @DataJpaTest
 class StationControllerTest {
 
-    @Autowired
-    ParcelRespository parcelRespository;
 
-
-    @Test
-    public void should_return_a_parcel_item_when_add_a_parcel_item(){
-        List<Parcel>parcelList=new ArrayList<>();
-
-        Parcel parcel1=new Parcel("lisi","123456789");
-        Parcel parcel2=new Parcel("zhangsan","123456789");
-        Parcel parcel3=new Parcel("zhangsan","123456789");
-        parcelList.add(parcel1);
-        parcelList.add(parcel2);
-        parcelList.add(parcel3);
-    }
 
 }
