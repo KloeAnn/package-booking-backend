@@ -6,7 +6,7 @@ import java.util.List;
 public class Station {
     private List<Parcel> parcelList;
 
-    public Station(List<Parcel> parcelList) {
+    public Station() {
         this.parcelList = new ArrayList<>();
     }
 
