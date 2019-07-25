@@ -28,6 +28,6 @@ public class ParcelService {
     }
 
     public Parcel updateParcelStatus(int status,long id){
-        return parcelRespository.updateParcelSetStatusForParcelId(status,id);
+        return parcelRespository.updateParcelSetStatusForlId(status,id);
     }
 }

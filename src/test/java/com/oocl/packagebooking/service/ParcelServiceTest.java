@@ -79,5 +79,18 @@ public class ParcelServiceTest {
 
     }
 
+//    @Test
+//    public void should_return_a_parcel_item_when_update_status_with_id()throws Exception{
+//        Parcel oldParcel=new Parcel(4L,"zhangsan","123456789");
+//        Parcel newParcel=new Parcel(4L,"zhangsan","123456789");
+//
+//        Mockito.when(parcelRespository.save(parcel)).thenReturn(parcel);
+//
+//        Parcel resParcel=parcelService.addOneParcel(parcel);
+//
+//        Assertions.assertEquals(parcel,resParcel);
+//
+//    }
+
 
 }
